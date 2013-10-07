@@ -7,8 +7,25 @@ html{
 	height: 71px;
 	width: 715px;
 	margin: auto;
-	margin-bottom: ;
 	text-align: center;
+}
+
+.header ul {
+	list-style: none;
+	margin:0px;
+	padding:0px;
+	margin-top:20px;
+}
+
+.header li {
+	display: inline;
+	padding-left:20px;
+	padding-right:20px;
+	border-right:1px solid #94593f;
+}
+
+.header li:last-of-type {
+	border:none;
 }
 
 .large-vert-div{
@@ -19,7 +36,9 @@ html{
 }
 
 .gold-text{
-	font-family: 'ApexSerif Bold';
+	font-family: 'Roboto Slab', serif;
+	font-weight:700;
+	letter-spacing: 1px;
 	font-size: 16px;
 	color: #fff6c5;
 	display: inline-block;
@@ -49,24 +68,9 @@ html{
 	width: 482px;
 	height: 224px;
 	display: inline-block;
-	color: #fece0f;
-	font-family: "A&S Blaze";
 	float: left;
 }
 
-.card-text{
-	float: right;
-	position: relative;
-	top: 85px;
-	right: 48px;
-	margin:0px;
-	clear: right;
-	height: auto;
-}
-.card-text h1{
-	margin: 0px;
-	line-height: 26px;
-}
 
 .sparkle{
 	position: relative;
@@ -107,34 +111,24 @@ html{
 	font-size: 24px;
 }
 
-.apex-dark{
-	font-family: 'ApexSerif Bold';
-	text-transform: uppercase;
-	margin: 0px;
-	color: #644D29;
-	text-shadow: 0px 0px 4px #7E6033;
-	font-size: 24px;
-	text-align: center;
-	line-height: 28px;
-	}
-
-.large-text{
-	font-size: 36px;
-	font-family: 'ApexSerif Bold';
-	font-weight: 800;
-}
-
 .gold-box div{
 	margin: auto;
 	width: 155px;
 	height: 155px;
 	position: relative;
 	top: 39px;
+	font-size: 24px;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	color: #644D29;
+	line-height: 30px;
+	font-weight:700;
+	text-shadow:0px 0px 4px #7E6033;
 }
 
-.gold-box div img{
-	position: relative;
-	left: 45px;
+.gold-box span {
+	font-size:39px;
+	font-weight:700;
 }
 
 /*--------------------main--------------------------*/
@@ -166,6 +160,11 @@ p{
 li{
 	list-style-image: url(images/list-img.png);
 	color: #fffdb9;
+}
+
+.popular-games {
+	margin-top:10px;
+	margin-top:70px;
 }
 
 /*--------------------section--------------------------*/
@@ -226,6 +225,10 @@ li{
 	padding-left: 12px;
 }
 
+.aside a {
+	color:#fffdb9;
+}
+
 .aside .yellow-text{
 margin: 16px 0px;
 }
@@ -242,6 +245,11 @@ margin: 16px 0px;
 	box-shadow: 0px 20px 25px 0px #3a0a05 inset;
 	clear: both;
 	padding-top: 10px;
+	bottom:0px;
+}
+
+.footer ul {
+	padding:0px;
 }
 
 .footer li{
